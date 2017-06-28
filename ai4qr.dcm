@@ -1,0 +1,58 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP -15V
+K POWER, PWR
+$ENDCMP
+#
+$CMP LM1458
+D Dual Op amp (low power)
+K ampliop
+F ns/lm158.pdf
+$ENDCMP
+#
+$CMP OPA2134
+D Dual Op amp (low power)
+K ampliop
+F ns/lm158.pdf
+$ENDCMP
+#
+$CMP OPA4134
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP RC4136N
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP SW_Rotary3x3
+D 4 rotary switches with 3 positions
+K rotary switch
+F http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf
+$ENDCMP
+#
+$CMP Vminus
+K POWER, PWR
+$ENDCMP
+#
+$CMP Vplus
+K POWER, PWR
+$ENDCMP
+#
+$CMP dotminus
+K POWER, PWR
+$ENDCMP
+#
+$CMP dotplus
+K POWER, PWR
+$ENDCMP
+#
+$CMP mySW_DPDT_x2
+D Switch, dual pole double throw, separate symbols
+K switch dual-pole double-throw DPDT spdt ON-ON
+$ENDCMP
+#
+#End Doc Library
