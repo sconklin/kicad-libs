@@ -4,6 +4,12 @@ $CMP -15V
 K POWER, PWR
 $ENDCMP
 #
+$CMP FTR-J2AK024W
+D Dual Single Pole Relay, SPST-NO, 10A
+K Dual Single Pole Relay
+F https://www.fujitsu.com/downloads/MICRO/fcai/relays/ftr-j2.pdf
+$ENDCMP
+#
 $CMP LM1458
 D Dual Op amp (low power)
 K ampliop
