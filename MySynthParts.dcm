@@ -399,12 +399,6 @@ K 3946  NPN  PNP dual transistor
 F http://www.onsemi.com/pub_link/Collateral/MBT3946DW1T1-D.PDF
 $ENDCMP
 #
-$CMP MC14584
-D Hex Schmitt Trigger Inverter
-K Schmitt Inverter
-F http://www.onsemi.com/pub_link/Collateral/MC14584B-D.PDF
-$ENDCMP
-#
 $CMP MCP1703
 D 0.5A 35V Adjustable Linear Regulator, LCC-20
 K Adjustable Voltage Regulator 0.5A Positive
